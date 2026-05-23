@@ -1,0 +1,16 @@
+section,category,value_type,statewide_usd,rogue_workforce_partnership_usd
+totals,Median Earnings 2Q After,usd,9000,8500
+gender,Women,usd,8000,6500
+gender,Men,usd,9500,9500
+gender,Not Reported,usd,6000,
+age,<18,usd,,
+age,18-24,usd,7000,6000
+age,25+,usd,9500,9000
+race_ethnicity,Asian/Asian American,usd,11500,
+race_ethnicity,Black/African American,usd,8500,
+race_ethnicity,Latino/a/x/Hispanic,usd,9000,8000
+race_ethnicity,Native American/Alaska Native,usd,7000,
+race_ethnicity,Native Hawaiian/Pacific Islander,usd,,
+race_ethnicity,Two or more,usd,7000,9000
+race_ethnicity,Not reported,usd,9000,
+race_ethnicity,White,usd,9000,8500

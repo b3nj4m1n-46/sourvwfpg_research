@@ -1,0 +1,86 @@
+outcome_metric,section,category,value_type,statewide,rogue_workforce_partnership
+Measurable Skill Gains,totals,Participants With Skill Gains (count),count,2072,306
+Measurable Skill Gains,totals,Participants With Skill Gains (rate),percent,67,60
+Measurable Skill Gains,gender,Women,percent,65,59
+Measurable Skill Gains,gender,Men,percent,69,62
+Measurable Skill Gains,gender,Not Reported,percent,61,
+Measurable Skill Gains,age,<18,percent,57,47
+Measurable Skill Gains,age,18-24,percent,64,57
+Measurable Skill Gains,age,25+,percent,71,64
+Measurable Skill Gains,race_ethnicity,Asian/Asian American,percent,63,
+Measurable Skill Gains,race_ethnicity,Black/African American,percent,56,
+Measurable Skill Gains,race_ethnicity,Latino/a/x/Hispanic,percent,66,60
+Measurable Skill Gains,race_ethnicity,Native American/Alaska Native,percent,58,
+Measurable Skill Gains,race_ethnicity,Native Hawaiian/Pacific Islander,percent,,
+Measurable Skill Gains,race_ethnicity,Two or more,percent,60,
+Measurable Skill Gains,race_ethnicity,Not reported,percent,62,
+Measurable Skill Gains,race_ethnicity,White,percent,70,61
+Measurable Skill Gains,barriers,Cultural Barrier,percent,54,
+Measurable Skill Gains,barriers,Disability,percent,61,48
+Measurable Skill Gains,barriers,Displaced Homemaker,percent,68,51
+Measurable Skill Gains,barriers,English Language Learner,percent,58,
+Measurable Skill Gains,barriers,Exhausting TANF,percent,57,67
+Measurable Skill Gains,barriers,Ex-Offender,percent,68,63
+Measurable Skill Gains,barriers,Homeless,percent,57,48
+Measurable Skill Gains,barriers,Long-term Unemployed,percent,63,59
+Measurable Skill Gains,barriers,Low Income,percent,65,58
+Measurable Skill Gains,barriers,Low Literacy,percent,60,60
+Measurable Skill Gains,barriers,Migrant Seasonal Farmworker,percent,76,
+Measurable Skill Gains,barriers,Single Parent,percent,66,63
+Measurable Skill Gains,barriers,Youth Foster,percent,65,
+Measurable Skill Gains,barriers,Youth Parent,percent,46,
+Measurable Skill Gains,barriers,Not Reported,percent,82,65
+Credential Attainment,totals,Total Exiters,count,2338,323
+Credential Attainment,totals,Exiters With Credential (count),count,1547,207
+Credential Attainment,totals,Exiters With Credential (rate),percent,66,64
+Credential Attainment,credential_type,BA/BS,count,,
+Credential Attainment,credential_type,AA/AS,count,,
+Credential Attainment,credential_type,Other Recognized Diploma,count,76,
+Credential Attainment,credential_type,Occupational Certificate/Certification,count,745,91
+Credential Attainment,credential_type,Occupational Licensure,count,396,95
+Credential Attainment,credential_type,Secondary school/equivalent,count,282,20
+Credential Attainment,credential_type,No recognized credential,count,791,116
+Credential Attainment,age,<18,count,82,
+Credential Attainment,age,18-24,count,814,88
+Credential Attainment,age,25+,count,1428,233
+Credential Attainment,gender,Women,count,996,
+Credential Attainment,gender,Men,count,1179,186
+Credential Attainment,gender,Not Reported,count,19,
+Credential Attainment,race_ethnicity,Asian/Asian American,count,69,
+Credential Attainment,race_ethnicity,Black/African American,count,215,
+Credential Attainment,race_ethnicity,Latino/a/x/Hispanic,count,451,71
+Credential Attainment,race_ethnicity,Native American/Alaska Native,count,45,
+Credential Attainment,race_ethnicity,Native Hawaiian/Pacific Islander,count,22,
+Credential Attainment,race_ethnicity,Two or more,count,132,15
+Credential Attainment,race_ethnicity,Not reported,count,108,15
+Credential Attainment,race_ethnicity,White,count,1152,203
+Credential Attainment,barriers,Cultural Barrier,count,177,
+Credential Attainment,barriers,Disability,count,489,32
+Credential Attainment,barriers,Displaced Homemaker,count,413,62
+Credential Attainment,barriers,English Language Learner,count,241,
+Credential Attainment,barriers,Exhausting TANF,count,156,
+Credential Attainment,barriers,Ex-Offender,count,398,26
+Credential Attainment,barriers,Homeless,count,366,35
+Credential Attainment,barriers,Long-term Unemployed,count,409,86
+Credential Attainment,barriers,Low Income,count,1652,220
+Credential Attainment,barriers,Low Literacy,count,708,35
+Credential Attainment,barriers,Migrant Seasonal Farmworker,count,202,16
+Credential Attainment,barriers,Single Parent,count,676,90
+Credential Attainment,barriers,Youth Foster,count,184,
+Credential Attainment,barriers,Youth Parent,count,213,
+Credential Attainment,barriers,Not Reported,count,522,62
+Employment Rate (2Q After Exit),totals,Overall,percent,65,71
+Employment Rate (2Q After Exit),gender,Women,percent,65,69
+Employment Rate (2Q After Exit),gender,Men,percent,65,72
+Employment Rate (2Q After Exit),gender,Not Reported,percent,59,
+Employment Rate (2Q After Exit),age,<18,percent,47,44
+Employment Rate (2Q After Exit),age,18-24,percent,65,72
+Employment Rate (2Q After Exit),age,25+,percent,66,71
+Employment Rate (2Q After Exit),race_ethnicity,Asian/Asian American,percent,68,
+Employment Rate (2Q After Exit),race_ethnicity,Black/African American,percent,66,
+Employment Rate (2Q After Exit),race_ethnicity,Latino/a/x/Hispanic,percent,68,76
+Employment Rate (2Q After Exit),race_ethnicity,Native American/Alaska Native,percent,61,
+Employment Rate (2Q After Exit),race_ethnicity,Native Hawaiian/Pacific Islander,percent,52,
+Employment Rate (2Q After Exit),race_ethnicity,Two or more,percent,62,64
+Employment Rate (2Q After Exit),race_ethnicity,Not reported,percent,58,58
+Employment Rate (2Q After Exit),race_ethnicity,White,percent,65,71

@@ -1,0 +1,32 @@
+section,category,value,statewide,rogue_workforce_partnership
+totals,Total Participants,count,8134,1230
+totals,Total Services,count,8172,1239
+gender,Women,percent,47,
+gender,Men,percent,52,53
+gender,Not Reported,percent,1,
+age,<18,percent,7,9
+age,18-24,percent,29,30
+age,25+,percent,65,62
+race_ethnicity,Asian/Asian American,percent,4,1.0
+race_ethnicity,Black/African American,percent,11,1
+race_ethnicity,Latino/a/x/Hispanic,percent,21,21
+race_ethnicity,Native American/Alaska Native,percent,2,1
+race_ethnicity,Native Hawaiian/Pacific Islander,percent,0.8,1
+race_ethnicity,Two or more,percent,6,5
+race_ethnicity,Not reported,percent,4,3
+race_ethnicity,White,percent,51,67
+barriers,Cultural Barrier,percent,4,
+barriers,Disability,percent,13,8
+barriers,Displaced Homemaker,percent,8,12
+barriers,English Language Learner,percent,8,3
+barriers,Exhausting TANF,percent,13,7
+barriers,Ex-Offender,percent,15,12
+barriers,Homeless,percent,14,10
+barriers,Long-term Unemployed,percent,13,15
+barriers,Low Income,percent,70,67
+barriers,Low Literacy,percent,48,37
+barriers,Migrant Seasonal Farmworker,percent,2,3
+barriers,Single Parent,percent,23,26
+barriers,Youth Foster,percent,2,2
+barriers,Youth Parent,percent,3,3
+barriers,Not Reported,percent,12,13
