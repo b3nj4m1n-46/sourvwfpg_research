@@ -1,21 +1,22 @@
-% sou_workforce_pell.tex -- Deck B.
+% sou_workforce_pell.tex -- Deck B (v2).
 %
-% Audience: SOU officials, community members, with secondary asks
-% addressed to HECC and the Oregon Workforce & Talent Development
-% Board (WTDB).
+% Audience: SOU administrators and the Rogue Valley community.
+% Secondary asks addressed to HECC and the Oregon Workforce &
+% Talent Development Board (WTDB).
 %
-% Framing: SOU revenue diversification through a new federal
-% category -- Workforce Pell -- created by the May 18, 2026 final
-% rule and effective July 20, 2026.  Most of the audience has not
-% heard of Workforce Pell.  The deck explains it, argues that
-% universities are uniquely positioned to deliver it, shows that
-% the Rogue Valley has the demand to support it, and asks SOU
-% leadership to include a Workforce Pell track in the
-% revenue-diversification proposal currently being drafted.
+% Framing: Southern Oregon University is drafting a downsizing
+% proposal and has invited the public to bring revenue ideas.
+% Workforce Pell, the new federal program created by Section 83002
+% of the OBBBA (signed July 4, 2025) and detailed in the March 9,
+% 2026 NPRM and the May 19, 2026 final rule, is a clean fit for a
+% four-year regional public university.  This deck argues that
+% SOU should adopt a Workforce Pell track under the brand of
+% "Applied Bioregional Learning" and operate the regional data
+% fusion (Ashland Intelligence) that makes the filings defensible
+% -- a model other Oregon institutions can adopt.
 %
-% Visual language: dark tensor-fusion (matches Deck A south_fusion).
-% Libertinus type, cream-on-deep-navy palette, isometric cube,
-% schematic vector geometry.
+% Visual language: dark tensor-fusion (Libertinus type, cream on
+% deep navy, isometric cube motif).
 %
 % Build (xelatex required for fontspec / Libertinus OTF):
 %   cd decks
@@ -169,7 +170,7 @@
   \leavevmode
   \hbox{%
     \begin{beamercolorbox}[wd=\paperwidth,ht=2.4ex,dp=1.2ex,leftskip=1.0cm,rightskip=1.0cm]{}%
-      \monoLabel{sou / workforce pell at sou}%
+      \monoLabel{sou / applied bioregional learning}%
       \hfill
       \monoLabel{\insertframenumber\,/\,\inserttotalframenumber}%
     \end{beamercolorbox}%
@@ -231,11 +232,11 @@
   {\color{#1}\rule[0.15ex]{0.55ex}{0.55ex}}%
 }
 
-% Outlined card with eyebrow + body.
+% Outlined card.
 \newcommand{\schemCard}[3]{%
   {\setlength{\fboxrule}{0.4pt}\setlength{\fboxsep}{12pt}%
    \fcolorbox{lineMid}{bgRaised}{%
-     \parbox[t][3.6cm][t]{3.8cm}{%
+     \parbox[t][3.6cm][t]{3.6cm}{%
        \centering\footnotesize\color{textPrimary}%
        {\color{#3}\rule{1.2em}{0.6pt}}\par
        \vspace{4pt}%
@@ -268,7 +269,7 @@
       \end{tikzpicture}
     \end{column}
     \begin{column}{8.4cm}
-      \eyebrow{Phase 0 / proposal sketch / \today}\par
+      \eyebrow{Phase 0 / proposal sketch / May 24, 2026}\par
       \vspace{14pt}
       {\displayfont\fontsize{34pt}{38pt}\selectfont\color{textPrimary}%
        Workforce Pell\\at SOU\par}
@@ -276,8 +277,8 @@
       {\color{oil}\rule{2.6em}{0.7pt}}\par
       \vspace{14pt}
       {\rmfamily\itshape\fontsize{14pt}{18pt}\selectfont
-       \color{textSecondary}A bioregional revenue strategy\\
-       for the Rogue Valley.\par}
+       \color{textSecondary}Applied Bioregional Learning,\\
+       a revenue strategy for the Rogue Valley.\par}
       \vspace{22pt}
       \monoLabel{daniel defreez / southern oregon university}
     \end{column}
@@ -286,31 +287,33 @@
 }
 
 % ====================================================================
-% 1.  The moment
+% 1.  SOU's moment
 % ====================================================================
 \frametitleEyebrow{SOU / financial inflection}
-\begin{frame}{We are looking for new revenue. One arrives in eight weeks.}
+\begin{frame}{We are asked for revenue ideas. One arrives in eight weeks.}
   \begin{columns}[T,onlytextwidth]
     \begin{column}{0.58\textwidth}
       \rmfamily\fontsize{11.5pt}{15.5pt}\selectfont
       \color{textPrimary}
       Southern Oregon University is drafting a downsizing
-      proposal and has asked the public for revenue ideas that
-      could supplement existing academic tracks.\par
+      proposal and has invited the public to bring innovative
+      revenue ideas that could supplement existing academic
+      tracks.\par
       \vspace{8pt}
       On \textbf{July 20, 2026}, a new federal program takes
-      effect that universities are uniquely positioned to
-      deliver: \textbf{Workforce Pell}.\par
+      effect that four-year universities are uniquely positioned
+      to deliver: \textbf{Workforce Pell}.\par
       \vspace{8pt}
-      This deck proposes one new track:
-      \textbf{SOU as the Rogue Valley's bioregional hub for
-      applied learning} \textemdash{} short, employer-aligned,
-      Pell-funded certificate programs that ladder into
-      existing SOU degrees.\par
+      This deck proposes that SOU adopt a Workforce Pell track
+      under the brand \textbf{Applied Bioregional Learning}
+      \textemdash{} short, employer-aligned, Pell-funded
+      certificates that ladder into existing SOU degrees and
+      anchor SOU as the regional partner for Rogue Valley
+      employers and learners.\par
       \vspace{10pt}
       \color{textSecondary}\itshape\fontsize{10pt}{13.5pt}\selectfont
-      A new revenue category. Federally backed. Anchored in
-      regional demand. No tuition risk to the student.
+      A new federally-backed revenue category. No tuition risk
+      to the student. A graceful path for SOU.
     \end{column}
     \begin{column}{0.40\textwidth}
       \centering
@@ -322,7 +325,7 @@
         \node[draw=lineMid,line width=0.4pt,fill=bgRaised,
               minimum width=4.0cm,minimum height=0.9cm,
               text=textPrimary,font=\footnotesize\rmfamily]
-              at (0,1.7) {\textbf{May 2026}\\\eyebrow{SOU revenue ideas solicited}};
+              at (0,1.7) {\textbf{Spring 2026}\\\eyebrow{SOU revenue ideas solicited}};
         \node[draw=lineMid,line width=0.4pt,fill=bgRaised,
               minimum width=4.0cm,minimum height=0.9cm,
               text=textPrimary,font=\footnotesize\rmfamily]
@@ -330,7 +333,7 @@
         \node[draw=oil,line width=0.7pt,fill=bgRaised,
               minimum width=4.0cm,minimum height=0.9cm,
               text=textPrimary,font=\footnotesize\rmfamily]
-              at (0,-0.7) {\textbf{8 weeks}\\\eyebrow{to align proposal \& rule}};
+              at (0,-0.7) {\textbf{${\sim}$8 weeks}\\\eyebrow{to align proposal \& rule}};
         \draw[-{Latex[length=2mm]},draw=lineStrong,line width=0.5pt]
               (0,1.25) -- (0,0.95);
         \draw[-{Latex[length=2mm]},draw=oil,line width=0.6pt]
@@ -346,117 +349,139 @@
 \frametitleEyebrow{Federal / Workforce Pell Grant}
 \begin{frame}{A new Pell category for short, high-quality, employment-aligned programs}
   \begin{columns}[T,onlytextwidth]
-    \begin{column}{0.52\textwidth}
+    \begin{column}{0.50\textwidth}
       \rmfamily\fontsize{10pt}{13pt}\selectfont
       \color{textPrimary}
       \eyebrow{program shape}
       \vspace{2pt}
       \begin{itemize}\itemsep1pt
-        \item \textbf{8\textendash15 weeks} of instructional time
-        \item \textbf{150\textendash599 clock hours}, or equivalent credit
-        \item No correspondence, remedial, or study-abroad
+        \item \textbf{8\textendash15 weeks}, 150\textendash599 clock hours
+        \item No correspondence, noncredit, or remedial coursework
         \item Must be offered by an \textbf{accredited institution}
+        \item Must award academic credit toward an existing
+              certificate or degree
       \end{itemize}
       \vspace{8pt}
-      \eyebrow{three annual federal thresholds}
+      \eyebrow{three annual accountability tests}
       \vspace{2pt}
       \begin{itemize}\itemsep1pt
-        \item \textbf{70\%} of participants complete within 150\% of normal time
-        \item \textbf{70\%} of completers employed in the 2nd quarter after exit
-        \item Tuition + fees $\leq$ median completer earnings $-$
-              150\% of the federal poverty line\\
-              {\color{textMuted}\scriptsize(2026: 150\% of poverty $\approx$ \$23{,}475 for an individual)}
+        \item \textbf{70\%} of participants complete within
+              150\% of normal time
+        \item \textbf{70\%} of completers employed in the
+              2nd quarter after exit
+        \item Tuition + fees $\leq$ median completer earnings
+              $-$ 150\% of poverty line
+              ({\color{textMuted}value-added earnings; $\approx$\$23{,}475 in 2026})
       \end{itemize}
     \end{column}
-    \begin{column}{0.46\textwidth}
+    \begin{column}{0.48\textwidth}
       \rmfamily\fontsize{10pt}{13pt}\selectfont
       \color{textPrimary}
-      \eyebrow{approval path}
+      \eyebrow{key timeline}
       \vspace{2pt}
       \begin{itemize}\itemsep1pt
-        \item \textbf{Governor} approves first, after consulting the
-              State Workforce \& Talent Development Board
-        \item \textbf{Secretary of Education} approves second
-        \item Re-approval tied to institution's PPA expiration
+        \item \textbf{Jul 4, 2025} \textemdash{} OBBBA \S 83002 signed
+        \item \textbf{Mar 9, 2026} \textemdash{} NPRM published
+        \item \textbf{May 19, 2026} \textemdash{} Final rule published
+        \item \textbf{Jul 20, 2026} \textemdash{} Rule effective
+              ({\color{textMuted}early opt-in Jul 1})
+        \item \textbf{AY 2026/27 \textendash{} 2028/29} \textemdash{} Interim phase: only 70/70 applies
+        \item \textbf{AY 2029/30} \textemdash{} Transition: first value-added earnings calcs
+        \item \textbf{AY 2030/31$+$} \textemdash{} Full accountability
       \end{itemize}
-      \vspace{8pt}
-      \eyebrow{notable provisions for universities}
+      \vspace{6pt}
+      \eyebrow{provisions that favor universities}
       \vspace{2pt}
       \begin{itemize}\itemsep1pt
-        \item \textbf{Bachelor's-degree holders are eligible} \textemdash{}
-              rare in Pell
-        \item \textbf{Employers may deliver up to 25\%} of instruction\\
-              (\textbf{49\%} for Registered Apprenticeship Programs)
-        \item Programs must award academic credit toward an
-              existing certificate or degree
+        \item \textbf{Bachelor's-degree holders are eligible}
+        \item \textbf{Employers may deliver up to 25\%} of instruction
+              ({\color{textMuted}49\% via Registered Apprenticeship})
+        \item \textbf{Governor + state Workforce Board approve first}, then U.S.\ Secretary of Education
       \end{itemize}
-      \vspace{8pt}
-      \monoLabel{Source: ED Final Rule Fact Sheet, May 18, 2026 \textbullet{} Federal Register, May 19, 2026.}
     \end{column}
   \end{columns}
+  \vspace{4pt}
+  {\centering
+   \monoLabel{Sources: OBBBA \S 83002 \textbullet{} ED Final Rule Fact Sheet, May 18, 2026 \textbullet{} D\textsuperscript{2} Strategies (Manhattan Inst.), April 2026.}\par}
 \end{frame}
 
 % ====================================================================
-% 3.  Why universities
+% 3.  Distinctive opportunity for 4-year + state precedents
 % ====================================================================
-\frametitleEyebrow{Position / why higher-ed wins this}
+\frametitleEyebrow{Position / why 4-year universities, and the proof}
 \begin{frame}{Workforce Pell was written for institutions like SOU}
-  \centering
-  \rmfamily\fontsize{9.5pt}{12.5pt}\selectfont
-  \color{textPrimary}
-  \renewcommand{\arraystretch}{1.32}
-  \begin{tabular}{@{}p{4.6cm}p{8.8cm}@{}}
-    \toprule
-    \eyebrow{federal requirement} & \eyebrow{what it means for SOU}\\
-    \midrule
-    Accredited institution; 5 clean years
-      & For-profit short-course providers are excluded by design. SOU clears.\\
-    \addlinespace[2pt]
-    Stackable / credit-bearing credential
-      & The program must award academic credit toward an existing certificate or degree. \textbf{Universities already own the ladder.}\\
-    \addlinespace[2pt]
-    Up to 25\% employer-delivered (49\% in RAP)
-      & SOU partners with regional employers and apprenticeship sponsors; the university orchestrates while industry contributes hours.\\
-    \addlinespace[2pt]
-    Governor + WTDB alignment to regional demand
-      & SOU already engages HECC and the Rogue Workforce Partnership through CTE and WIOA channels. The relationships exist.\\
-    \addlinespace[2pt]
-    Three annual outcome tests
-      & The metrics (completion, employment, value-added earnings) are precisely what a university outcomes office can defend.\\
-    \bottomrule
-  \end{tabular}
-  \vspace{10pt}\par
-  {\itshape\color{textSecondary}\fontsize{10pt}{13.5pt}\selectfont
-   For-profit short-course providers cannot meet most of this.
-   Community colleges share the lane, but lack the bachelor's-ladder
-   pathway that the rule explicitly rewards.}
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{0.54\textwidth}
+      \rmfamily\fontsize{10.5pt}{13.5pt}\selectfont
+      \color{textPrimary}
+      \eyebrow{the distinctive 4-year market}
+      \vspace{4pt}
+      \begin{itemize}\itemsep2pt
+        \item \textbf{Bachelor's-degree holders are eligible} \textemdash{}
+              rare in Pell. Career-changers, alumni, second-degree
+              candidates.
+        \item \textbf{Countercyclical} to the enrollment cliff:
+              traditional 18-year-olds decline; adult re-skilling
+              grows with AI \& industry transformation.
+        \item \textbf{41.9M Americans} aged 25\textendash 64 have
+              some college but no credential (SCNC).
+        \item Four-year accreditation, stackable credit, and
+              bachelor's-ladder pathways are \textbf{moats that
+              for-profit short-course providers cannot cross}.
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.44\textwidth}
+      \rmfamily\fontsize{9.6pt}{12.4pt}\selectfont
+      \color{textPrimary}
+      \eyebrow{states already running this play}
+      \vspace{4pt}
+      \begin{itemize}\itemsep2pt
+        \item \textbf{Virginia} \textemdash{} \$140.8M New Economy
+              Workforce Credential Grant: 90\% completion, 67\%
+              earn industry credentials, 60\%+ had no prior
+              postsecondary.
+        \item \textbf{Tennessee} \textemdash{} \$1.5B coordinated
+              short-credential-to-degree pathway model.
+        \item \textbf{Texas} \textemdash{} \$605.7M
+              performance-based community-college funding.
+        \item \textbf{Iowa, Louisiana} \textemdash{} robust
+              noncredit + wage-record data systems already exist.
+        \item \textbf{Oregon} \textemdash{} \textit{state-level data
+              \& approval infrastructure not yet built.} SOU can
+              be the regional model.
+      \end{itemize}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 % ====================================================================
 % 4.  Why SOU specifically
 % ====================================================================
 \frametitleEyebrow{Position / bioregional anchor}
-\begin{frame}{SOU as the Rogue Valley's bioregional hub for applied learning}
+\begin{frame}{SOU as the Rogue Valley's hub for Applied Bioregional Learning}
   \begin{columns}[T,onlytextwidth]
     \begin{column}{0.50\textwidth}
       \rmfamily\fontsize{10.5pt}{14pt}\selectfont
       \color{textPrimary}
-      \eyebrow{bioregional positioning}
+      \eyebrow{what SOU already brings}
       \vspace{4pt}
       \begin{itemize}\itemsep2pt
-        \item Anchor institution for Jackson and Josephine counties.
+        \item Accredited four-year public university anchoring
+              Jackson and Josephine counties.
         \item Existing capacity in healthcare, education,
-              business, sustainability, and outdoor sciences.
-        \item Faculty and facilities already cleared for accredited
+              business, sustainability, outdoor sciences.
+        \item Faculty and facilities already cleared for
               credentialing.
-        \item Sits next to the Rogue Workforce Partnership and
-              Business Oregon's southern Oregon office.
+        \item Established channels into HECC and the Rogue
+              Workforce Partnership (WIOA, CTE).
+        \item Alumni base already in the regional workforce
+              \textemdash{} a natural first cohort.
       \end{itemize}
-      \vspace{8pt}
-      \color{textSecondary}\itshape\fontsize{10pt}{13.5pt}\selectfont
-      A Workforce Pell track is not a pivot \textemdash{} it is a
-      repackaging of existing SOU strengths into shorter,
-      employer-aligned credentials that ladder back into degrees.
+      \vspace{6pt}
+      \color{textSecondary}\itshape\fontsize{10pt}{13pt}\selectfont
+      A Workforce Pell track is not a pivot. It is a repackaging
+      of existing SOU strengths into shorter, employer-aligned
+      credentials that ladder back into degrees.
     \end{column}
     \begin{column}{0.48\textwidth}
       \centering
@@ -469,10 +494,10 @@
                        font=\footnotesize\rmfamily},
         ]
         \node[anchor=north,text=textMuted] at (0,3.4) {\eyebrow{SOU strengths $\rightarrow$ RV demand}};
-        \node[band] (b1) at (0, 2.6) {Healthcare \& allied health $\rightarrow$ LPN, Dental, Pharm Tech, CHW};
+        \node[band] (b1) at (0, 2.6) {Healthcare \& allied health $\rightarrow$ CNA, LPN, Dental, Pharm Tech, CHW};
         \node[band] (b2) at (0, 1.6) {Education \& human services $\rightarrow$ paraprofessional, behavioral health};
         \node[band] (b3) at (0, 0.6) {Sustainability \& trades $\rightarrow$ HVAC, energy auditing, water systems};
-        \node[band] (b4) at (0,-0.4) {Business \& hospitality $\rightarrow$ supervisory, lodging mgmt, food service};
+        \node[band] (b4) at (0,-0.4) {Business \& hospitality $\rightarrow$ supervisory, lodging, food service};
         \node[band] (b5) at (0,-1.4) {Outdoor \& applied sciences $\rightarrow$ fire, EMS, forestry tech};
       \end{tikzpicture}
     \end{column}
@@ -480,59 +505,129 @@
 \end{frame}
 
 % ====================================================================
-% 5.  RV occupation demand
+% 5.  RV occupation demand (with real numbers)
 % ====================================================================
 \frametitleEyebrow{Evidence / Rogue Valley demand}
-\begin{frame}{Six RV occupations that fit Workforce Pell today}
+\begin{frame}{Seven Rogue Valley occupations sized for Workforce Pell}
   \centering
-  \rmfamily\fontsize{9.4pt}{12pt}\selectfont
+  \rmfamily\fontsize{9pt}{11.6pt}\selectfont
   \color{textPrimary}
-  \renewcommand{\arraystretch}{1.22}
-  \begin{tabular}{@{}p{4.8cm}rrr@{}}
+  \renewcommand{\arraystretch}{1.20}
+  \begin{tabular}{@{}p{5.0cm}rrr@{}}
     \toprule
     \eyebrow{occupation (SOC)}
       & \eyebrow{RV 10-yr openings}
       & \eyebrow{2025 median wage}
       & \eyebrow{value-added cap}\\
     \midrule
+    Nursing Assistants (CNA)
+      & \textbf{1{,}894} & \$48{,}734 & \$25{,}259\\
+    \addlinespace[1pt]
     Licensed Practical / Vocational Nurses
       & 325 & \$79{,}414 & \$55{,}939\\
-    \addlinespace[2pt]
+    \addlinespace[1pt]
     Dental Assistants
       & 572 & \$56{,}514 & \$33{,}039\\
-    \addlinespace[2pt]
+    \addlinespace[1pt]
     Pharmacy Technicians
       & 355 & \$54{,}746 & \$31{,}271\\
-    \addlinespace[2pt]
-    Surgical Technologists
-      &  81 & \$76{,}877 & \$53{,}402\\
-    \addlinespace[2pt]
+    \addlinespace[1pt]
     HVAC \& Refrigeration Mechanics
       & 231 & \$61{,}048 & \$37{,}573\\
-    \addlinespace[2pt]
+    \addlinespace[1pt]
+    Surgical Technologists
+      &  81 & \$76{,}877 & \$53{,}402\\
+    \addlinespace[1pt]
     Community Health Workers
       &  86 & \$58{,}490 & \$35{,}015\\
+    \midrule
+    \multicolumn{4}{@{}l@{}}{\textit{\color{textMuted}Plus, leveraging the bachelor's-holder eligibility:}}\\
+    Registered Nurse \textit{(2nd-degree BSN bridge)}
+      & \textbf{1{,}735} & \$115{,}003 & \$91{,}528\\
     \bottomrule
   \end{tabular}
-  \vspace{10pt}\par
-  {\itshape\color{textSecondary}\fontsize{10pt}{13.5pt}\selectfont
-   ``Value-added cap'' = the federal tuition + fees ceiling per student\\
-   (median wage $-$ \$23{,}475). Every line above is a defensible
-   revenue envelope.}\par
-  \vspace{6pt}
+  \vspace{8pt}\par
+  {\itshape\color{textSecondary}\fontsize{10pt}{13pt}\selectfont
+   Value-added cap = federal tuition + fees ceiling per student
+   (median wage $-$ \$23{,}475). Each row is a defensible per-student
+   revenue envelope. RN is included because Workforce Pell uniquely
+   admits bachelor's-degree holders.}\par
+  \vspace{4pt}
   \monoLabel{Source: Oregon Employment Department, Rogue Valley High-Wage, High-Demand, High-Skill Occupations 2024\textendash 2034.}
 \end{frame}
 
 % ====================================================================
-% 6.  One cell populated (RV WIOA outcomes)
+% 6.  Workforce Pell as a public-private partnership
 % ====================================================================
-\frametitleEyebrow{Evidence / RV workforce outcomes that already exist}
-\begin{frame}{The Rogue Valley already outperforms statewide on outcomes}
+\frametitleEyebrow{Operating model / structurally a public-private partnership}
+\begin{frame}{Workforce Pell is, by design, a public-private partnership}
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{0.52\textwidth}
+      \rmfamily\fontsize{10.5pt}{14pt}\selectfont
+      \color{textPrimary}
+      The federal rule does not let an institution run a
+      Workforce Pell program alone. Three partnerships are
+      \textbf{statutory}:\par
+      \vspace{6pt}
+      \begin{itemize}\itemsep2pt
+        \item \pdot{cPell}\,\textbf{Government.} Governor +
+              State Workforce Board certify alignment to
+              high-skill, high-wage, in-demand occupations.
+              Re-cert every two years.
+        \item \pdot{cBiz}\,\textbf{Employers.} May deliver up
+              to 25\% of instruction (49\% in Registered
+              Apprenticeship). May co-fund tuition. Hiring
+              commitments support the 70\% placement test.
+        \item \pdot{cSou}\,\textbf{Institution.} Accreditation,
+              curriculum, credit, outcomes tracking, advising,
+              and academic ladder.
+      \end{itemize}
+      \vspace{6pt}
+      \color{textSecondary}\itshape\fontsize{10pt}{13pt}\selectfont
+      ``Treat employers as co-investors in student success.''
+      \monoLabel{(D\textsuperscript{2} Strategies, 2026)}
+    \end{column}
+    \begin{column}{0.46\textwidth}
+      \centering
+      \begin{tikzpicture}[
+          every node/.style={font=\scriptsize\sffamily,
+                             text=textPrimary,align=center},
+          seat/.style={draw=lineMid,line width=0.4pt,fill=bgRaised,
+                       text=textPrimary,
+                       minimum height=0.65cm,minimum width=3.0cm,
+                       inner sep=4pt,
+                       font=\scriptsize\sffamily},
+        ]
+        \node[seat,draw=cSou]   (sou) at (0, 1.8)
+              {\pdot{cSou}\,\textbf{SOU}\\\scriptsize accreditation, curriculum, credit};
+        \node[seat,draw=cBiz]   (emp) at (-3.0,-1.4)
+              {\pdot{cBiz}\,\textbf{Employers}\\\scriptsize up to 25\% delivery, hiring};
+        \node[seat,draw=cPell]  (gov) at ( 3.0,-1.4)
+              {\pdot{cPell}\,\textbf{Governor + WTDB}\\\scriptsize approval, alignment};
+        \draw[lineMid,line width=0.5pt] (sou) -- (emp);
+        \draw[lineMid,line width=0.5pt] (sou) -- (gov);
+        \draw[lineMid,line width=0.5pt,dashed,dash pattern=on 1.5pt off 1.5pt] (emp) -- (gov);
+        \node[font=\scriptsize\itshape\rmfamily,text=textMuted]
+              at (0,-0.2) {three-corner alignment};
+      \end{tikzpicture}
+      \vspace{6pt}\par
+      {\itshape\color{textSecondary}\fontsize{9pt}{12pt}\selectfont
+       Each corner brings something the others can't.\\
+       The model fails if any corner is absent.}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% ====================================================================
+% 7.  RV outcomes already exist
+% ====================================================================
+\frametitleEyebrow{Evidence / Rogue Valley already outperforms statewide}
+\begin{frame}{The data we already have suggests SOU can clear the bar}
   \centering
-  \rmfamily\fontsize{9.4pt}{11.6pt}\selectfont
+  \rmfamily\fontsize{9.4pt}{11.8pt}\selectfont
   \color{textPrimary}
   \renewcommand{\arraystretch}{1.22}
-  \begin{tabular}{@{}p{6.2cm}rr@{}}
+  \begin{tabular}{@{}p{6.4cm}rr@{}}
     \toprule
     \eyebrow{WIOA outcome (2023, all programs)}
       & \eyebrow{rogue valley}
@@ -540,132 +635,86 @@
     \midrule
     Total WIOA participants
       & 1{,}230 & 8{,}134\\
-    \addlinespace[2pt]
+    \addlinespace[1pt]
     Measurable Skill Gain rate
       & 60\% & 67\%\\
-    \addlinespace[2pt]
+    \addlinespace[1pt]
     Credential attainment (exiters)
       & \textbf{64\%} & 66\%\\
-    \addlinespace[2pt]
+    \addlinespace[1pt]
     Employment, 2 quarters after exit
       & \textbf{71\%} & 65\%\\
-    \addlinespace[2pt]
+    \addlinespace[1pt]
     Employment, 4 quarters after exit
       & \textbf{66\%} & 63\%\\
-    \addlinespace[2pt]
+    \addlinespace[1pt]
     Median earnings, 2 quarters after exit
       & \$8{,}500 & \$9{,}000\\
     \bottomrule
   \end{tabular}
-  \vspace{10pt}\par
-  {\itshape\color{textSecondary}\fontsize{10pt}{13.5pt}\selectfont
-   The Rogue Valley clears the 70\% employment threshold today.
-   The 70\% completion threshold is the bar SOU's track would
-   be designed to meet.}\par
-  \vspace{6pt}
+  \vspace{8pt}\par
+  {\itshape\color{textSecondary}\fontsize{10pt}{13pt}\selectfont
+   Rogue Workforce Partnership already clears the 70\% employment
+   threshold for its participants. Their data-collection pipeline
+   is the demand-side spine we'd extend with SOU's supply side.}\par
+  \vspace{4pt}
   \monoLabel{Source: HECC WIOA Title I Workforce Data Dashboard (2023). Extract: SOURVWF/Statewide/oregon-wioa-dashboard/.}
 \end{frame}
 
 % ====================================================================
-% 7.  Why HECC's dashboard isn't enough
+% 8.  HECC dashboard limits + Ashland Intelligence (combined)
 % ====================================================================
-\frametitleEyebrow{Adjacent / what current data can and cannot do}
-\begin{frame}{HECC's WIOA dashboard answers part of this, not most}
+\frametitleEyebrow{Engine / data fusion as institutional asset}
+\begin{frame}{The data layer: from \emph{Annotated Ledger} to \emph{Ashland Intelligence}}
   \begin{columns}[T,onlytextwidth]
     \begin{column}{0.48\textwidth}
       \rmfamily\fontsize{10pt}{13pt}\selectfont
       \color{textPrimary}
-      \eyebrow{what HECC publishes today}
+      \eyebrow{the picture today}
       \vspace{4pt}
       \begin{itemize}\itemsep1pt
-        \item WIOA Title I participants \& demographics
-        \item Measurable Skill Gains
-        \item Credential attainment by exit year
-        \item Employment 2Q \& 4Q after exit
-        \item Median earnings 2Q \& 4Q after exit
-        \item Filter by local workforce board, program year
-      \end{itemize}
-    \end{column}
-    \begin{column}{0.48\textwidth}
-      \rmfamily\fontsize{10pt}{13pt}\selectfont
-      \color{textPrimary}
-      \eyebrow{what HECC does \textit{not} publish}
-      \vspace{4pt}
-      \begin{itemize}\itemsep1pt
-        \item Non-WIOA training (most CTE; Pell-eligible workforce)
-        \item Employer demand (no QCEW or postings join)
-        \item Per-program ROI (cannot rank programs)
-        \item Wages by SOC (only by exiter demographic)
-        \item Sub-board geography (no Jackson / Josephine split)
-        \item Real-time intake (annual; lags ${\sim}$2 years)
-        \item Coverage diagnostic (no signal on thin evidence)
-      \end{itemize}
-    \end{column}
-  \end{columns}
-  \vspace{8pt}
-  \begin{center}
-    \itshape\color{textSecondary}\fontsize{10.5pt}{13.5pt}\selectfont
-    The right-hand list is exactly what Workforce Pell will ask
-    the Governor to attest. We need a data layer that fills it
-    \textemdash{} \textbf{Ashland Intelligence}, sketched on
-    the next slide.
-  \end{center}
-\end{frame}
-
-% ====================================================================
-% 8.  Ashland Intelligence engine (brief)
-% ====================================================================
-\frametitleEyebrow{Engine / the data layer that makes filings defensible}
-\begin{frame}{Ashland Intelligence: the data engine, not the headline}
-  \begin{columns}[T,onlytextwidth]
-    \begin{column}{0.52\textwidth}
-      \rmfamily\fontsize{10.5pt}{14pt}\selectfont
-      \color{textPrimary}
-      A regional intelligence layer joining employer demand,
-      institutional capacity, and federal predicates into one
-      auditable evidence base for Workforce Pell filings.\par
-      \vspace{8pt}
-      \begin{itemize}\itemsep2pt
-        \item Composes sources \textemdash{} HECC, OED, RWP,
-              SOREDI, Business Oregon, FAFSA \textemdash{} on
-              one schema.
-        \item Powers the \textbf{Annotated Ledger}, SOU's
-              budget-data dashboard, with regional labor signal.
-        \item Published quarterly; every output cites its source.
+        \item \pdot{cSou}\,\textbf{Annotated Ledger}\;\textemdash{}\;the
+              SOU budget dashboard \textit{already built}.
+              Internal financial visibility.
+        \item \pdot{cRwp}\,\textbf{RWP / WIOA reporting}\;\textemdash{}\;
+              regional participant outcomes published quarterly
+              through HECC. Already exists.
+        \item \pdot{cPell}\,\textbf{HECC WIOA dashboard}\;\textemdash{}\;
+              public, but covers only WIOA-funded participants;
+              no employer demand, no per-program ROI, no sub-board
+              geography, 2-year lag.
       \end{itemize}
       \vspace{6pt}
       \color{textSecondary}\itshape\fontsize{10pt}{13pt}\selectfont
-      Ashland Intelligence is the operational substrate. Workforce
-      Pell at SOU is what it enables first.
+      The pieces exist. Nothing joins them.
     \end{column}
-    \begin{column}{0.46\textwidth}
-      \centering
-      \begin{tikzpicture}[
-          every node/.style={font=\footnotesize\sffamily,
-                             text=textPrimary,align=center},
-          seat/.style={draw=lineMid,line width=0.4pt,fill=bgRaised,
-                       text=textPrimary,
-                       minimum height=0.55cm,minimum width=2.4cm,
-                       inner sep=4pt,
-                       font=\scriptsize\sffamily},
-        ]
-        \cubeShape{1.2}{0}{0}
-        \node[font=\scriptsize\sffamily,text=textMuted,
-              anchor=north] at (0,-0.6)
-              {\eyebrow{ashland.ai / fused layer}};
-        \node[seat,draw=cSou]    (s1) at (-2.7, 1.4) {\pdot{cSou}\,\textbf{SOU}};
-        \node[seat,draw=cSoredi] (s2) at ( 2.7, 1.4) {\pdot{cSoredi}\,\textbf{SOREDI}};
-        \node[seat,draw=cBiz]    (s3) at (-2.7,-1.4) {\pdot{cBiz}\,\textbf{Business OR}};
-        \node[seat,draw=cRwp]    (s4) at ( 2.7,-1.4) {\pdot{cRwp}\,\textbf{RWP}};
-        \node[seat,draw=cPell]   (s5) at (0,  2.4)   {\pdot{cPell}\,\textbf{HECC / FAFSA}};
-        \node[seat,draw=cWr]     (s6) at (0, -2.4)   {\pdot{cWr}\,\textbf{White Rabbit}};
-        \foreach \s in {s1,s2,s3,s4,s5,s6}
-          \draw[lineMid,line width=0.35pt,dashed,
-                dash pattern=on 1.2pt off 1.4pt]
-                (\s) -- (0,0);
-      \end{tikzpicture}
+    \begin{column}{0.50\textwidth}
+      \rmfamily\fontsize{10pt}{13pt}\selectfont
+      \color{textPrimary}
+      \eyebrow{what we propose to build}
+      \vspace{4pt}
+      \begin{itemize}\itemsep1pt
+        \item \pdot{oil}\,\textbf{ashland.ai API}\;\textemdash{}\;a
+              regional fusion layer that joins employer demand,
+              institutional capacity, and federal predicates on
+              one schema; cites every source.
+        \item \pdot{oil}\,\textbf{ashland.ai MCP}\;\textemdash{}\;an
+              agent-accessible interface so AI tools can query the
+              same layer for advising, intake, and reporting.
+        \item \pdot{cSoredi}\,\textbf{Adoptable model}\;\textemdash{}\;
+              built so EOU, OSU-Cascades, COCC, Lane CC, and other
+              Oregon institutions can deploy the same layer for
+              their region.
+      \end{itemize}
+      \vspace{6pt}
+      \color{textSecondary}\itshape\fontsize{10pt}{13pt}\selectfont
+      Oregon's state data infrastructure isn't ready. SOU builds
+      the regional model; the state can scale it.
     \end{column}
   \end{columns}
+  \vspace{2pt}\par
+  \centering
+  \monoLabel{``Invest in data infrastructure as an institutional asset.'' \textendash{} D\textsuperscript{2} Strategies recommendation \#5, April 2026.}
 \end{frame}
 
 % ====================================================================
@@ -679,17 +728,16 @@
       \schemCard{curriculum}{%
         8\textendash15 weeks.\\
         150\textendash599 clock hours.\\
-        Employer-validated competencies.\\
-        Industry-recognized assessments.\\[6pt]
-        {\itshape\color{textMuted}built once, run repeatedly.}%
+        Employer-codesigned.\\
+        Industry assessments.\\[6pt]
+        {\itshape\color{textMuted}built once,\\ run repeatedly.}%
       }{cPell}
     \end{column}
     \begin{column}{0.25\textwidth}\centering
       \schemCard{delivery}{%
-        SOU faculty + up to 25\%\\
-        employer-delivered hours.\\
-        (49\% via Registered\\
-        Apprenticeship.)\\[6pt]
+        SOU faculty + up to\\
+        25\% employer-delivered\\
+        hours (49\% via RAP).\\[6pt]
         {\itshape\color{textMuted}distributed teaching,\\
          university orchestration.}%
       }{cSou}
@@ -700,7 +748,7 @@
         SOU certificate, AA,\\
         or BA pathway.\\
         Counts as academic credit.\\[6pt]
-        {\itshape\color{textMuted}an entry, not a dead end.}%
+        {\itshape\color{textMuted}an entry,\\ not a dead end.}%
       }{cRwp}
     \end{column}
     \begin{column}{0.25\textwidth}\centering
@@ -709,24 +757,23 @@
         $\geq$\,70\% employed 2Q after.\\
         Tuition $\leq$ value-added\\
         earnings cap.\\[6pt]
-        {\itshape\color{textMuted}defensible to the\\
-         Governor and Secretary.}%
+        {\itshape\color{textMuted}defensible to Governor\\
+         and Secretary.}%
       }{oil}
     \end{column}
   \end{columns}
-  \vspace{12pt}\par
+  \vspace{10pt}\par
   \centering
   {\itshape\color{textSecondary}\fontsize{10pt}{13pt}\selectfont
-   Each program approved first by the Governor in consultation
-   with the State Workforce \& Talent Development Board,
-   then by the U.S. Secretary of Education.}
+   Each program approved first by the Governor (in consultation
+   with the WTDB), then by the U.S. Secretary of Education.}
 \end{frame}
 
 % ====================================================================
 % 10. Revenue model
 % ====================================================================
 \frametitleEyebrow{Numbers / what this looks like as a revenue line}
-\begin{frame}{Each completer is a defensible new revenue line for SOU}
+\begin{frame}{Each completer is a defensible new revenue line}
   \begin{columns}[T,onlytextwidth]
     \begin{column}{0.50\textwidth}
       \rmfamily\fontsize{10pt}{13.5pt}\selectfont
@@ -736,20 +783,25 @@
       \begin{itemize}\itemsep2pt
         \item Federal cap on tuition + fees =\\
               median completer earnings $-$ \$23{,}475
+        \item Avg Pell grant for these programs $\approx$
+              \textbf{\$2{,}200/yr} (CBO).
+              Employer top-up and other aid bridge the gap.
         \item For a \$60{,}000-median-earnings program:\\
-              cap $\approx$ \textbf{\$36{,}525 per student}
-        \item Even a conservative \$5{,}000\textendash\$10{,}000 tuition fits comfortably below the cap.
-        \item Pell pays. Student carries no debt; SOU is paid up-front.
+              cap $\approx$ \textbf{\$36{,}525 per student},\\
+              well above what most short-course providers charge.
+        \item Pell pays first dollar (subject to packaging
+              rules). Student carries no debt.
       \end{itemize}
       \vspace{8pt}
-      \eyebrow{worked example}
+      \eyebrow{worked example, 3-program pilot}
       \vspace{4pt}
       \rmfamily\fontsize{10pt}{13pt}\selectfont
-      3 pilot programs $\times$ 30 completers $\times$ \$8{,}000
-      net tuition $=$ \textbf{\$720{,}000 annual recurring}.\\
+      3 programs $\times$ 30 completers $\times$ \$8{,}000
+      blended (Pell + employer) net tuition $=$
+      \textbf{\$720k annual recurring}.\\
       Scale to 6 programs $\times$ 50 completers $=$
       \textbf{\$2.4M annual recurring}, modest capex,
-      faculty shareable with degree tracks.
+      faculty shareable with degree programs.
     \end{column}
     \begin{column}{0.46\textwidth}
       \centering
@@ -761,14 +813,12 @@
         ]
         \node[anchor=south,text=textMuted] at (3,3.7)
               {\eyebrow{tuition envelope, illustrative}};
-        % horizontal scale
         \draw[lineSoft,line width=0.3pt] (0,0) -- (6,0);
         \foreach \x/\lab in {0/0,1.5/15k,3/30k,4.5/45k,6/60k} {
           \draw[lineSoft,line width=0.3pt] (\x,0) -- (\x,-0.1);
           \node[anchor=north,font=\scriptsize\sffamily,text=textMuted]
                 at (\x,-0.12) {\$\lab};
         }
-        % bars (each = a program)
         \node[bar,minimum width=6cm,minimum height=0.55cm,anchor=west]
               (b1) at (0,1.0) {};
         \node[anchor=east,font=\scriptsize\sffamily,text=textPrimary]
@@ -792,20 +842,19 @@
         \node[accent,minimum width=0.9cm,minimum height=0.55cm,anchor=west]
               at (0,2.6) {};
         \node[font=\scriptsize\sffamily,text=textPrimary] at (0.6,2.6) {\$9k};
-        % annotation
         \node[anchor=west,font=\scriptsize\sffamily,text=textMuted,align=left]
               at (0,-0.8)
-              {\textit{bar = federal value-added cap;}\\\textit{shaded = illustrative tuition;}\\\textit{the gap is per-student headroom.}};
+              {\textit{bar = federal value-added cap;}\\\textit{shaded = illustrative blended tuition;}\\\textit{the gap is per-student headroom.}};
       \end{tikzpicture}
     \end{column}
   \end{columns}
 \end{frame}
 
 % ====================================================================
-% 11. Twelve months
+% 11. Cadence -- four years, not twelve months
 % ====================================================================
-\frametitleEyebrow{Cadence / twelve months}
-\begin{frame}{Twelve months, five phases}
+\frametitleEyebrow{Cadence / 2026 through 2030-31}
+\begin{frame}{Four years, five phases}
   \vspace{0.4cm}
   \centering
   \begin{tikzpicture}[
@@ -813,39 +862,41 @@
                          text=textPrimary,align=center},
       phase/.style={draw=lineMid,line width=0.4pt,fill=bgRaised,
                     inner sep=6pt,
-                    minimum width=2.45cm,minimum height=1.95cm,align=center},
+                    minimum width=2.45cm,minimum height=2.05cm,align=center},
       arr/.style={-{Latex[length=1.8mm,width=1.4mm]},
                   draw=oil,line width=0.5pt},
     ]
     \node[phase] (p0)  at (-5.4,0)
       {{\sffamily\scriptsize\color{textMuted}PHASE 0}\\[2pt]
-       \textbf{May 2026}\\[2pt]
-       {\itshape\color{textMuted}scope 3 pilot\\programs}};
+       \textbf{May--Jun 2026}\\[2pt]
+       {\itshape\color{textMuted}scope 2--3\\pilot programs,\\state engagement}};
     \node[phase] (p1a) at (-2.7,0)
       {{\sffamily\scriptsize\color{textMuted}PHASE 1A}\\[2pt]
-       \textbf{Jun--Aug 2026}\\[2pt]
-       {\itshape\color{textMuted}Governor\\\& Secretary\\approval}};
+       \textbf{Jul--Dec 2026}\\[2pt]
+       {\itshape\color{textMuted}Governor +\\Secretary approval,\\employer MOUs}};
     \node[phase] (p1b) at ( 0.0,0)
       {{\sffamily\scriptsize\color{textMuted}PHASE 1B}\\[2pt]
-       \textbf{Sep--Nov 2026}\\[2pt]
-       {\itshape\color{textMuted}first cohort\\enrolled}};
-    \node[phase] (p1c) at ( 2.7,0)
-      {{\sffamily\scriptsize\color{textMuted}PHASE 1C}\\[2pt]
-       \textbf{Dec--Feb 2027}\\[2pt]
-       {\itshape\color{textMuted}outcomes\\measurement\\begins}};
-    \node[phase] (p2)  at ( 5.4,0)
+       \textbf{Jan--Sep 2027}\\[2pt]
+       {\itshape\color{textMuted}first cohort\\enrolled,\\Ashland Intel POC}};
+    \node[phase] (p2) at ( 2.7,0)
       {{\sffamily\scriptsize\color{textMuted}PHASE 2}\\[2pt]
-       \textbf{Mar--May 2027}\\[2pt]
-       {\itshape\color{textMuted}first completers,\\first revenue}};
+       \textbf{AY 2027/28--28/29}\\[2pt]
+       {\itshape\color{textMuted}interim 70/70\\measurement,\\program scaling}};
+    \node[phase] (p3)  at ( 5.4,0)
+      {{\sffamily\scriptsize\color{textMuted}PHASE 3}\\[2pt]
+       \textbf{AY 2029/30+}\\[2pt]
+       {\itshape\color{textMuted}value-added\\earnings live;\\full accountability}};
     \draw[arr] (p0)  -- (p1a);
     \draw[arr] (p1a) -- (p1b);
-    \draw[arr] (p1b) -- (p1c);
-    \draw[arr] (p1c) -- (p2);
+    \draw[arr] (p1b) -- (p2);
+    \draw[arr] (p2)  -- (p3);
     \node[anchor=north,text=textMuted,
-          font=\scriptsize\itshape\rmfamily]
-          at (0,-1.6)
-          {Aligned to the first sustained Workforce Pell cohort cycles
-           after the July 20, 2026 effective date.};
+          font=\scriptsize\itshape\rmfamily,text width=12cm]
+          at (0,-1.7)
+          {Federal rule gives institutions a four-year interim phase
+           (70/70 only) before value-added earnings accountability
+           begins. SOU can build, iterate, and scale during the
+           buffer.};
   \end{tikzpicture}
 \end{frame}
 
@@ -862,23 +913,25 @@
     \toprule
     \eyebrow{audience} & \eyebrow{the ask}\\
     \midrule
-    \pdot{cSou}\,\textbf{SOU officials}
-      & Include a \textbf{Workforce Pell track} in the revenue-diversification proposal. Designate a project lead within 30 days. Pick three pilot programs from the RV demand list (e.g.\ LPN, Dental Assistant, HVAC).\\
+    \pdot{cSou}\,\textbf{SOU administration}
+      & Include an \textbf{Applied Bioregional Learning / Workforce Pell track} in the revenue-diversification proposal. Designate a state-relationship lead by \textbf{June 30, 2026}. Pick 2\textendash 3 pilot programs from the RV demand list. Authorize the Annotated Ledger \& ashland.ai data work.\\
     \addlinespace[2pt]
     \pdot{cPell}\,\textbf{HECC + WTDB}
-      & Use the existing \textbf{Oregon CTE Skill Cluster framework} as the alignment basis for Governor approval criteria. Use the \textbf{Rogue Workforce Partnership 2024\textendash 2028 Local Plan} as the regional demand evidence base. Do not re-invent. The standards exist.\\
+      & Use the existing \textbf{Oregon CTE Skill Cluster framework} as the alignment basis for Governor approval criteria. Use the \textbf{Rogue Workforce Partnership 2024\textendash 2028 Local Plan} as the regional demand evidence base. Engage SOU as a pilot for the regional data layer that can scale to other Oregon institutions.\\
     \addlinespace[2pt]
-    \pdot{cRwp}\,\textbf{Community \& RV partners}
-      & Provide employer intent letters and internship slots for the first three programs. Advocate locally and at HECC. Help SOU run the data engine that makes the filing defensible.\\
+    \pdot{cRwp}\,\textbf{Rogue Valley community \& employers}
+      & Provide employer intent letters and internship slots for the first three programs. Advocate to SOU and HECC. Help operate the data engine that keeps the program defensible.\\
     \bottomrule
   \end{tabular}
   \vspace{14pt}\par
   {\itshape\color{textSecondary}\fontsize{10.5pt}{14pt}\selectfont
-   Eight weeks to the federal effective date. The fastest path is\\
-   to bring SOU's existing strengths into the rule's open door.}\par
+   Eight weeks to the federal effective date. Four years before full
+   accountability begins.\\
+   Time enough to start small, do it well, and let the rest of Oregon
+   adopt the model.}\par
   \vspace{10pt}
   {\sffamily\fontsize{8pt}{10pt}\selectfont\color{textMuted}
-   The Rogue Valley first. Statewide in 2027.}
+   The Rogue Valley first. Statewide in 2027\textendash 28.}
 \end{frame}
 
 \end{document}
