@@ -36,35 +36,12 @@
 \InputIfFileExists{facts.tex}{}{}
 
 %-----------------------------------------------------------------------
-% Fonts -- Libertinus family.
+% Fonts -- macOS system fonts (no extra install required).
 %-----------------------------------------------------------------------
-\setmainfont{LibertinusSerif}[
-  Extension      = .otf,
-  UprightFont    = *-Regular,
-  ItalicFont     = *-Italic,
-  BoldFont       = *-Bold,
-  BoldItalicFont = *-BoldItalic,
-  Ligatures      = TeX,
-]
-\setsansfont{LibertinusSans}[
-  Extension      = .otf,
-  UprightFont    = *-Regular,
-  ItalicFont     = *-Italic,
-  BoldFont       = *-Bold,
-  Ligatures      = TeX,
-  Scale          = 0.94,
-]
-\setmonofont{LibertinusMono}[
-  Extension      = .otf,
-  UprightFont    = *-Regular,
-  Scale          = 0.88,
-  Ligatures      = TeX,
-]
-\newfontfamily{\displayfont}{LibertinusSerifDisplay}[
-  Extension      = .otf,
-  UprightFont    = *-Regular,
-  Ligatures      = TeX,
-]
+\setmainfont{Times New Roman}[Ligatures=TeX]
+\setsansfont{Helvetica Neue}[Ligatures=TeX, Scale=0.94]
+\setmonofont{Menlo}[Scale=0.82]
+\newfontfamily{\displayfont}{Hoefler Text}[Ligatures=TeX]
 
 %-----------------------------------------------------------------------
 % Theme.
@@ -248,8 +225,8 @@
 }
 
 \title{Workforce Pell at SOU}
-\author{Daniel DeFreez}
-\institute{Southern Oregon University}
+\author{Daniel DeFreez \and Haylee Ulrey \and Benjamin Durham}
+\institute{Southern Oregon University \textbullet{} Autom Insights \textbullet{} White Rabbit}
 \date{May 24, 2026}
 
 \begin{document}
@@ -270,17 +247,24 @@
     \end{column}
     \begin{column}{8.4cm}
       \eyebrow{Phase 0 / proposal sketch / May 24, 2026}\par
-      \vspace{14pt}
-      {\displayfont\fontsize{34pt}{38pt}\selectfont\color{textPrimary}%
+      \vspace{8pt}
+      {\displayfont\fontsize{28pt}{32pt}\selectfont\color{textPrimary}%
        Workforce Pell\\at SOU\par}
-      \vspace{14pt}
+      \vspace{6pt}
       {\color{oil}\rule{2.6em}{0.7pt}}\par
-      \vspace{14pt}
-      {\rmfamily\itshape\fontsize{14pt}{18pt}\selectfont
+      \vspace{6pt}
+      {\rmfamily\itshape\fontsize{12pt}{15pt}\selectfont
        \color{textSecondary}Applied Bioregional Learning,\\
        a revenue strategy for the Rogue Valley.\par}
-      \vspace{22pt}
-      \monoLabel{daniel defreez / southern oregon university}
+      \vspace{10pt}
+      \eyebrow{proposed by}\par
+      \vspace{2pt}
+      {\rmfamily\fontsize{9pt}{12pt}\selectfont
+       \color{textPrimary}%
+       \textbf{Dr.\ Daniel DeFreez} \;\textemdash{}\; CS professor, SOU; creator of the Annotated Ledger\\
+       \textbf{Haylee Ulrey} \;\textemdash{}\; founder \& CEO, Autom Insights\\
+       \textbf{Benjamin Durham} \;\textemdash{}\; White Rabbit
+       \par}
     \end{column}
   \end{columns}
 \end{frame}
@@ -512,53 +496,113 @@
 % ====================================================================
 % 5.  RV occupation demand (with real numbers)
 % ====================================================================
-\frametitleEyebrow{Evidence / Rogue Valley demand}
-\begin{frame}{Seven Rogue Valley occupations sized for Workforce Pell}
+\frametitleEyebrow{Evidence / Rogue Valley demand, by SOU strength}
+\begin{frame}{Workforce Pell occupations across SOU's bioregional strengths}
   \centering
-  \rmfamily\fontsize{9pt}{11.6pt}\selectfont
+  \rmfamily\fontsize{8.6pt}{11pt}\selectfont
   \color{textPrimary}
-  \renewcommand{\arraystretch}{1.20}
-  \begin{tabular}{@{}p{5.0cm}rrr@{}}
+  \renewcommand{\arraystretch}{1.18}
+  \begin{tabular}{@{}p{4.0cm}p{4.4cm}rr@{}}
     \toprule
-    \eyebrow{occupation (SOC)}
-      & \eyebrow{RV 10-yr openings}
-      & \eyebrow{2025 median wage}
-      & \eyebrow{value-added cap}\\
+    \eyebrow{SOU strength}
+      & \eyebrow{example RV occupation}
+      & \eyebrow{10-yr openings}
+      & \eyebrow{2025 median wage}\\
     \midrule
-    Nursing Assistants (CNA)
-      & \textbf{1{,}894} & \$48{,}734 & \$25{,}259\\
-    \addlinespace[1pt]
-    Licensed Practical / Vocational Nurses
-      & 325 & \$79{,}414 & \$55{,}939\\
-    \addlinespace[1pt]
-    Dental Assistants
-      & 572 & \$56{,}514 & \$33{,}039\\
-    \addlinespace[1pt]
-    Pharmacy Technicians
-      & 355 & \$54{,}746 & \$31{,}271\\
-    \addlinespace[1pt]
-    HVAC \& Refrigeration Mechanics
-      & 231 & \$61{,}048 & \$37{,}573\\
-    \addlinespace[1pt]
-    Surgical Technologists
-      &  81 & \$76{,}877 & \$53{,}402\\
-    \addlinespace[1pt]
-    Community Health Workers
-      &  86 & \$58{,}490 & \$35{,}015\\
+    Healthcare practice
+      & Licensed Practical / Vocational Nurse
+      & 325 & \$79{,}414\\
+    Healthcare support
+      & Nursing Assistant (CNA)
+      & \textbf{1{,}894} & \$48{,}734\\
+    Allied health
+      & Pharmacy Technician
+      & 355 & \$54{,}746\\
+    Education \& care economy
+      & Preschool Teacher
+      & 483 & \$38{,}958\\
+    Fire \& emergency services
+      & Firefighter
+      & 163 & \$60{,}445\\
+    Forestry \& environment
+      & Forest \& Conservation Tech
+      & 241 & \$55{,}786\\
+    Sustainability \& water
+      & Water / Wastewater Treatment Op.
+      & 56 & \$71{,}781\\
+    Skilled trades
+      & HVAC \& Refrigeration Mechanic
+      & 231 & \$61{,}048\\
     \midrule
-    \multicolumn{4}{@{}l@{}}{\textit{\color{textMuted}Plus, leveraging the bachelor's-holder eligibility:}}\\
-    Registered Nurse \textit{(2nd-degree BSN bridge)}
-      & \textbf{1{,}735} & \$115{,}003 & \$91{,}528\\
+    \multicolumn{4}{@{}p{13.5cm}@{}}{\itshape\color{textMuted}Bachelor's-holder bridges (uniquely Pell-eligible under the new rule): \textbf{Registered Nurse} (1{,}735 openings, \$115k); \textbf{Forester} (118, \$74.5k); \textbf{Substitute Teacher} (413, \$51.7k); \textbf{Environmental Scientist} (53, \$75.9k).}\\
     \bottomrule
   \end{tabular}
-  \vspace{8pt}\par
-  {\itshape\color{textSecondary}\fontsize{10pt}{13pt}\selectfont
-   Value-added cap = federal tuition + fees ceiling per student
-   (median wage $-$ \$23{,}475). Each row is a defensible per-student
-   revenue envelope. RN is included because Workforce Pell uniquely
-   admits bachelor's-degree holders.}\par
-  \vspace{4pt}
-  \monoLabel{Source: Oregon Employment Department, Rogue Valley High-Wage, High-Demand, High-Skill Occupations 2024\textendash 2034.}
+  \vspace{6pt}\par
+  {\itshape\color{textSecondary}\fontsize{9.5pt}{12.5pt}\selectfont
+   Healthcare is only one band. SOU's environmental sciences,
+   fire / wildland, and education strengths map onto Oregon's
+   \textbf{15 in-demand sectors} and \textbf{209 priority
+   occupations} \textemdash{} the same list HECC will use for
+   Workforce Pell.}\par
+  \vspace{2pt}
+  \monoLabel{Source: OED Rogue Valley HWHD/HS Occupations 2024\textendash 2034; sector framing from 2026 Oregon Talent Assessment (ECOnorthwest for HECC).}
+\end{frame}
+
+% ====================================================================
+% 5b. HECC/WTDB shape the in-demand list
+% ====================================================================
+\frametitleEyebrow{Authority / Oregon defines its own in-demand list}
+\begin{frame}{HECC and WTDB shape what counts \textemdash{} the list is dynamic}
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{0.50\textwidth}
+      \rmfamily\fontsize{10pt}{13pt}\selectfont
+      \color{textPrimary}
+      \eyebrow{what the federal rule actually says}
+      \vspace{4pt}
+      \begin{itemize}\itemsep1pt
+        \item Each Governor must publish a written methodology
+              for identifying \textbf{high-skill, high-wage,
+              \emph{or} in-demand} occupations
+              {\color{textMuted}(\S 690.93(b))}.
+        \item Only \emph{one} of the three bars must be cleared.
+              An occupation can qualify on \textbf{high-skill alone}.
+        \item Lists must be \textbf{reviewed at least every two
+              years} \textemdash{} they are designed to evolve.
+        \item U.S.\ Dept.\ of Ed.\ confirms: ``Eligible programs
+              will \textbf{vary across states} based on local
+              labor market needs.''
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \rmfamily\fontsize{10pt}{13pt}\selectfont
+      \color{textPrimary}
+      \eyebrow{Oregon's foundation is already in place}
+      \vspace{4pt}
+      \begin{itemize}\itemsep1pt
+        \item The \textbf{2026 Oregon Talent Assessment}
+              (ECOnorthwest \(\rightarrow\) HECC) is explicitly
+              positioned as the \textbf{methodology starting
+              point} for Workforce Pell.
+        \item It identifies \textbf{15 in-demand sectors}
+              including Forestry \& Wood Products
+              {\color{textMuted}(LQ 3.1; outsized statewide
+              concentration)}, Clean Energy / Climate Tech,
+              Social Assistance / Care Economy.
+        \item \textbf{209 priority occupations} mapped against
+              five criteria.
+        \item SOU's environmental, fire, and teaching strengths
+              fit \emph{multiple} sectors on that list.
+      \end{itemize}
+    \end{column}
+  \end{columns}
+  \vspace{6pt}
+  \begin{center}
+    \itshape\color{textSecondary}\fontsize{10pt}{13.5pt}\selectfont
+    The list is not fixed. Programs SOU brings forward can be
+    added \textemdash{} if HECC and WTDB are at the table.
+  \end{center}
+  \par
+  \monoLabel{Sources: Workforce Pell NPRM \S 690.93(b); U.S.\ Dept.\ of Ed.\ ``Likely Workforce Pell Programs'' briefing, Dec 9, 2025; 2026 Oregon Talent Assessment.}
 \end{frame}
 
 % ====================================================================
@@ -722,7 +766,13 @@
   \end{columns}
   \vspace{2pt}\par
   \centering
-  \monoLabel{``Invest in data infrastructure as an institutional asset.'' \textendash{} D\textsuperscript{2} Strategies recommendation \#5, April 2026.}
+  {\itshape\color{textSecondary}\fontsize{9.5pt}{12pt}\selectfont
+   The 2026 Oregon Talent Assessment explicitly recommends
+   ``develop an Oregon Talent Dashboard \textemdash{} a central
+   repository for sector, occupation, training, and outcome
+   metrics.'' Ashland Intelligence is the regional prototype.}\par
+  \vspace{4pt}
+  \monoLabel{``Invest in data infrastructure as an institutional asset.'' \textendash{} D2 Strategies rec.\ \#5; ``Develop an Oregon Talent Dashboard'' \textendash{} 2026 Oregon Talent Assessment.}
 \end{frame}
 
 % ====================================================================
@@ -868,53 +918,38 @@
 % ====================================================================
 \frametitleEyebrow{Cadence / 2026 through 2030-31}
 \begin{frame}{Four years, five phases}
-  \vspace{0.4cm}
+  \vspace{0.25cm}
   \centering
-  \begin{tikzpicture}[
-      every node/.style={font=\scriptsize\sffamily,
-                         text=textPrimary,align=center},
-      phase/.style={draw=lineMid,line width=0.4pt,fill=bgRaised,
-                    inner sep=6pt,
-                    minimum width=2.45cm,minimum height=2.05cm,align=center},
-      arr/.style={-{Latex[length=1.8mm,width=1.4mm]},
-                  draw=oil,line width=0.5pt},
-    ]
-    \node[phase] (p0)  at (-5.4,0)
-      {{\sffamily\scriptsize\color{textMuted}PHASE 0}\\[2pt]
-       \textbf{May--Jun 2026}\\[2pt]
-       {\itshape\color{textMuted}scope 2--3\\pilot programs,\\state engagement}};
-    \node[phase] (p1a) at (-2.7,0)
-      {{\sffamily\scriptsize\color{textMuted}PHASE 1A}\\[2pt]
-       \textbf{Jul--Dec 2026}\\[2pt]
-       {\itshape\color{textMuted}Governor +\\Secretary approval,\\employer MOUs}};
-    \node[phase] (p1b) at ( 0.0,0)
-      {{\sffamily\scriptsize\color{textMuted}PHASE 1B}\\[2pt]
-       \textbf{Jan--Sep 2027}\\[2pt]
-       {\itshape\color{textMuted}first cohort\\enrolled,\\Ashland Intel POC}};
-    \node[phase] (p2) at ( 2.7,0)
-      {{\sffamily\scriptsize\color{textMuted}PHASE 2}\\[2pt]
-       \textbf{AY 2027/28--28/29}\\[2pt]
-       {\itshape\color{textMuted}interim 70/70\\measurement,\\program scaling}};
-    \node[phase] (p3)  at ( 5.4,0)
-      {{\sffamily\scriptsize\color{textMuted}PHASE 3}\\[2pt]
-       \textbf{AY 2029/30+}\\[2pt]
-       {\itshape\color{textMuted}value-added\\earnings live;\\full accountability}};
-    \draw[arr] (p0)  -- (p1a);
-    \draw[arr] (p1a) -- (p1b);
-    \draw[arr] (p1b) -- (p2);
-    \draw[arr] (p2)  -- (p3);
-    \node[anchor=north,text=textMuted,
-          font=\scriptsize\itshape\rmfamily,text width=12cm]
-          at (0,-1.7)
-          {Federal rule gives institutions a four-year interim phase
-           (70/70 only) before value-added earnings accountability
-           begins. SOU can build, iterate, and scale during the
-           buffer.};
-    \node[anchor=north,text=textMuted,
-          font=\ttfamily\fontsize{7.5pt}{9pt}\selectfont,text width=13cm]
-          at (0,-2.6)
-          {Phasing per Workforce Pell NPRM, March 9, 2026; final rule May 19, 2026; D\textsuperscript{2} Strategies interim-phase analysis, April 2026.};
-  \end{tikzpicture}
+  \newcommand{\phaseBox}[3]{%
+    \setlength{\fboxrule}{0.4pt}\setlength{\fboxsep}{4pt}%
+    \fcolorbox{lineMid}{bgRaised}{%
+      \parbox[t][2.05cm][t]{2.05cm}{%
+        \centering\color{textPrimary}%
+        {\sffamily\scriptsize\color{textMuted}#1}\\[2pt]
+        {\rmfamily\footnotesize\textbf{#2}}\\[3pt]
+        {\rmfamily\scriptsize\itshape\color{textMuted}#3}%
+      }%
+    }%
+  }
+  \newcommand{\phaseArrow}{%
+    \raisebox{1.0cm}{\color{oil}$\boldsymbol{\rightarrow}$}%
+  }
+  \phaseBox{PHASE 0}{May--Jun 2026}{scope 2--3 pilot programs, state engagement}\hspace{2pt}%
+  \phaseArrow\hspace{2pt}%
+  \phaseBox{PHASE 1A}{Jul--Dec 2026}{Governor + Secretary approval, employer MOUs}\hspace{2pt}%
+  \phaseArrow\hspace{2pt}%
+  \phaseBox{PHASE 1B}{Jan--Sep 2027}{first cohort enrolled, Ashland Intel POC}\hspace{2pt}%
+  \phaseArrow\hspace{2pt}%
+  \phaseBox{PHASE 2}{AY 2027/28--28/29}{interim 70/70 measurement, program scaling}\hspace{2pt}%
+  \phaseArrow\hspace{2pt}%
+  \phaseBox{PHASE 3}{AY 2029/30+}{value-added earnings live; full accountability}%
+  \par\vspace{0.5cm}
+  {\rmfamily\itshape\fontsize{9.5pt}{12.5pt}\selectfont\color{textMuted}
+   Federal rule gives institutions a four-year interim phase
+   (70/70 only) before value-added earnings accountability begins.\\
+   SOU can build, iterate, and scale during the buffer.\par}
+  \vspace{6pt}
+  \monoLabel{Phasing per Workforce Pell NPRM, Mar 9, 2026; final rule May 19, 2026; D2 Strategies interim-phase analysis, April 2026.}
 \end{frame}
 
 % ====================================================================
@@ -996,7 +1031,10 @@
       & \emph{2024\textendash 2028 Local Plan}, Rogue Workforce Partnership, signed 2024. Plus Federal Assurances, Partners' Statement of Agreement.\\
     \addlinespace[1pt]
     Oregon talent assessment
-      & HECC \& WTDB, \emph{2026 Oregon Talent Assessment} (15 sectors, 209 occupations).\\
+      & ECOnorthwest for HECC, \emph{2026 Oregon Talent Assessment} (15 in-demand sectors; 209 priority occupations; 5 criteria). Explicitly recommends developing an Oregon Talent Dashboard.\\
+    \addlinespace[1pt]
+    ED program-type briefing
+      & U.S.\ Dept.\ of Education, \emph{What Types of Programs Could Be Eligible for Workforce Pell Grants?}, Dec 9, 2025. Confirms state authority to shape eligibility.\\
     \addlinespace[1pt]
     Oregon CTE skill clusters
       & Oregon Dept.\ of Education, CTE Knowledge \& Skill Statements (16 career clusters).\\
