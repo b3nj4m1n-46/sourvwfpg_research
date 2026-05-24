@@ -831,85 +831,76 @@
 % ====================================================================
 % 10. Revenue model
 % ====================================================================
-\frametitleEyebrow{Numbers / what this looks like as a revenue line}
-\begin{frame}{Each completer is a defensible new revenue line}
+\frametitleEyebrow{Numbers / conservative ramp with cost-side}
+\begin{frame}{A conservative revenue ramp, with the cost side shown}
   \begin{columns}[T,onlytextwidth]
-    \begin{column}{0.50\textwidth}
-      \rmfamily\fontsize{10pt}{13.5pt}\selectfont
+    \begin{column}{0.42\textwidth}
+      \rmfamily\fontsize{9.4pt}{12pt}\selectfont
       \color{textPrimary}
-      \eyebrow{the per-student revenue envelope}
-      \vspace{4pt}
-      \begin{itemize}\itemsep2pt
-        \item Federal cap on tuition + fees =\\
-              median completer earnings $-$ \$23{,}475
-        \item Avg Pell grant for these programs $\approx$
-              \textbf{\$2{,}200/yr} (CBO).
-              Employer top-up and other aid bridge the gap.
-        \item For a \$60{,}000-median-earnings program:\\
-              cap $\approx$ \textbf{\$36{,}525 per student},\\
-              well above what most short-course providers charge.
-        \item Pell pays first dollar (subject to packaging
-              rules). Student carries no debt.
-      \end{itemize}
-      \vspace{8pt}
-      \eyebrow{worked example, 3-program pilot}
-      \vspace{4pt}
-      \rmfamily\fontsize{10pt}{13pt}\selectfont
-      3 programs $\times$ 30 completers $\times$ \$8{,}000
-      blended (Pell + employer) net tuition $=$
-      \textbf{\$720k annual recurring}.\\
-      Scale to 6 programs $\times$ 50 completers $=$
-      \textbf{\$2.4M annual recurring}, modest capex,
-      faculty shareable with degree programs.\par
-      \vspace{6pt}
-      \monoLabel{\$23,475 = 150\% of 2025 HHS poverty guideline (single-person).\\
-      Avg grant $\approx$\$2,200/yr: Congressional Budget Office estimate, 2034 steady-state.}
+      \eyebrow{per-completer unit economics}
+      \vspace{4pt}\par
+      \begin{tabular}{@{}lr@{}}
+        Pell grant (avg, CBO)              & \$2{,}200\\
+        Employer / state / other aid       & \$5{,}800\\
+        \cmidrule{2-2}
+        \textbf{Blended tuition revenue}   & \textbf{\$8{,}000}\\
+        \addlinespace[2pt]
+        \multicolumn{2}{@{}l@{}}{\textit{\color{textMuted}cost side, mature program (30+ cohort)}}\\
+        Faculty (shared / 0.5 FTE)         & \$1{,}500\\
+        Materials \& supplies              & \$500\\
+        Advising \& student services       & \$400\\
+        Employer \& data coordination      & \$300\\
+        Marketing \& outreach              & \$300\\
+        Administrative overhead (10\%)     & \$800\\
+        \cmidrule{2-2}
+        \textbf{Total cost / completer}    & \textbf{\$3{,}800}\\
+        \addlinespace[2pt]
+        \textbf{Net contribution / completer}
+                                           & \textbf{\$4{,}200}\\
+      \end{tabular}
+      \par\vspace{6pt}
+      {\color{textSecondary}\itshape\fontsize{9pt}{11.5pt}\selectfont
+       Year 1 net per completer is closer to \$2{,}500
+       (cohorts of $\sim$12, fixed costs spread over fewer
+       students).}
     \end{column}
-    \begin{column}{0.46\textwidth}
+    \begin{column}{0.56\textwidth}
       \centering
-      \begin{tikzpicture}[
-          every node/.style={font=\scriptsize\sffamily,
-                             text=textPrimary,align=center},
-          bar/.style={draw=lineMid,line width=0.4pt,fill=bgRaised},
-          accent/.style={draw=oil,line width=0.6pt,fill=oil!12},
-        ]
-        \node[anchor=south,text=textMuted] at (3,3.7)
-              {\eyebrow{tuition envelope, illustrative}};
-        \draw[lineSoft,line width=0.3pt] (0,0) -- (6,0);
-        \foreach \x/\lab in {0/0,1.5/15k,3/30k,4.5/45k,6/60k} {
-          \draw[lineSoft,line width=0.3pt] (\x,0) -- (\x,-0.1);
-          \node[anchor=north,font=\scriptsize\sffamily,text=textMuted]
-                at (\x,-0.12) {\$\lab};
-        }
-        \node[bar,minimum width=6cm,minimum height=0.55cm,anchor=west]
-              (b1) at (0,1.0) {};
-        \node[anchor=east,font=\scriptsize\sffamily,text=textPrimary]
-              at (-0.1,1.0) {Pharm Tech};
-        \node[accent,minimum width=0.9cm,minimum height=0.55cm,anchor=west]
-              at (0,1.0) {};
-        \node[font=\scriptsize\sffamily,text=textPrimary] at (0.6,1.0) {\$9k};
-
-        \node[bar,minimum width=6cm,minimum height=0.55cm,anchor=west]
-              (b2) at (0,1.8) {};
-        \node[anchor=east,font=\scriptsize\sffamily,text=textPrimary]
-              at (-0.1,1.8) {HVAC};
-        \node[accent,minimum width=0.9cm,minimum height=0.55cm,anchor=west]
-              at (0,1.8) {};
-        \node[font=\scriptsize\sffamily,text=textPrimary] at (0.6,1.8) {\$9k};
-
-        \node[bar,minimum width=6cm,minimum height=0.55cm,anchor=west]
-              (b3) at (0,2.6) {};
-        \node[anchor=east,font=\scriptsize\sffamily,text=textPrimary]
-              at (-0.1,2.6) {LPN / LVN};
-        \node[accent,minimum width=0.9cm,minimum height=0.55cm,anchor=west]
-              at (0,2.6) {};
-        \node[font=\scriptsize\sffamily,text=textPrimary] at (0.6,2.6) {\$9k};
-        \node[anchor=west,font=\scriptsize\sffamily,text=textMuted,align=left]
-              at (0,-0.8)
-              {\textit{bar = federal value-added cap;}\\\textit{shaded = illustrative blended tuition;}\\\textit{the gap is per-student headroom.}};
-      \end{tikzpicture}
+      \rmfamily\fontsize{9.4pt}{12pt}\selectfont
+      \color{textPrimary}
+      \eyebrow{conservative three-year ramp (NET, not gross)}
+      \vspace{4pt}\par
+      \renewcommand{\arraystretch}{1.18}
+      \begin{tabular}{@{}p{2.4cm}rrrr@{}}
+        \toprule
+        \eyebrow{academic year}
+          & \eyebrow{prog}
+          & \eyebrow{cohort}
+          & \eyebrow{completers}
+          & \eyebrow{annual net}\\
+        \midrule
+        \textbf{Year 1}\\AY 2027/28 & 2 & 12 &  24 & \textbf{\$60k}\\
+        \addlinespace[2pt]
+        \textbf{Year 3}\\AY 2029/30 & 4 & 30 & 120 & \textbf{\$420k}\\
+        \addlinespace[2pt]
+        \textbf{Year 5}\\AY 2031/32 & 6 & 50 & 300 & \textbf{\$1.2M}\\
+        \bottomrule
+      \end{tabular}
+      \vspace{8pt}\par
+      {\itshape\color{textSecondary}\fontsize{9.5pt}{12.5pt}\selectfont
+       Net = blended tuition $-$ direct + indirect cost.\\
+       Gross is roughly 2$\times$ the net column.}\par
+      \vspace{6pt}
+      {\rmfamily\fontsize{8.6pt}{11.2pt}\selectfont\color{textMuted}
+       \textbf{Comparable:} Virginia's New Economy Workforce
+       Credential Grant (formerly FastForward) reports
+       \textbf{90\% completion} and \textbf{67\% industry-credential}
+       rates after \$140.8M cumulative state investment \textemdash{}
+       a working four-year-institution precedent.}
     \end{column}
   \end{columns}
+  \vspace{4pt}\par
+  \monoLabel{Pell avg: CBO score, 2034 steady-state. Cost lines: SOU-typical assumptions; verify before commitment. Comparable: D2 Strategies, April 2026, citing Va.\ FastForward.}
 \end{frame}
 
 % ====================================================================
