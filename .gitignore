@@ -16,5 +16,5 @@ Thumbs.db
 *.fdb_latexmk
 *.synctex.gz
 
-# Decks held back from publication for now — kept locally only
-/decks/
+# Legacy iterations of the SOU Workforce Pell deck — kept locally only
+/decks/legacy/
